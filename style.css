@@ -1,6 +1,6 @@
 .letter {
     display: grid;
-    grid-template-columns: repeat(9, 50px);
+    grid-template-columns: repeat(10, 50px);
     text-align: center;
 }
 

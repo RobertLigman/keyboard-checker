@@ -1,7 +1,24 @@
 .letter {
     display: grid;
-    grid-template-columns: repeat(10, 50px);
+    /* grid-template-columns: repeat(10, 50px); */
     text-align: center;
+    grid-template-rows: repeat(15, auto);
+}
+
+div[class*="Row"] {
+    display: grid;
+    width: 500px;
+    grid-template-columns: repeat(15, 1fr);
+}
+
+.firstRow {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+.secondRow {
+    grid-column: 1/-1;
+    grid-row: 2/3;
 }
 
 .letter-key {
@@ -17,4 +34,8 @@
 .clicked {
     background-color: black;
     color: white;
+}
+
+.big {
+    width: 100px;
 }

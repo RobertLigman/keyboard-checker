@@ -1,0 +1,20 @@
+.letter {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    text-align: center;
+}
+
+.letter-key {
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 3px;
+    transition: 0.2s linear;
+}
+
+.clicked {
+    background-color: black;
+    color: white;
+}
